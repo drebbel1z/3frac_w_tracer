@@ -12,7 +12,7 @@ frac_roughness_1 = ${frac_roughness}
 frac_roughness_2 = ${frac_roughness}
 frac_roughness_3 = ${frac_roughness}
 
-log_slope_at_midpoint = -0.192728679974834
+log_slope_at_midpoint = -2.12849404
 
 one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
 
@@ -39,7 +39,7 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
     end_point ='-83.6358901331 210.6703141636 537.2353804364'
     a_max = ${frac_aperture_3}
     a_min = ${fparse frac_aperture_3/10}
-    midpoint_of_sigmoid = 2.2432391348e+01
+    midpoint_of_sigmoid = 47.14586926
     slope_at_midpoint = ${fparse 10^log_slope_at_midpoint}
     block = 'fracture3'
     execute_on = 'INITIAL'
@@ -91,7 +91,7 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
   []
   [porosity_fracture3]
     type = PorousFlowPorosityLinear
-    porosity_ref = ${frac_aperture_3} #aperture_fracture3
+    porosity_ref = aperture_fracture3 #aperture_fracture3
     P_ref = insitu_pp
     P_coeff = ${one_over_bulk}
     porosity_min = ${fparse frac_aperture_3/10}
