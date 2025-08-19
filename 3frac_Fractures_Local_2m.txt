@@ -1,0 +1,5 @@
+bounding_box -2100 2100 -2000 2400 -1500 2400 300
+FractureX[m]	FractureY[m]	FractureZ[m]	FractureRadius[m]	Trend[deg]	Plunge[deg]	Strike[deg]	Aperture[m]	Tag	MeshSize
+10.59	220.837	443.412	150	85	90	175	5e-05	1	2
+3.331	220.055	446.787	150	85	90	175	5e-05	2	2
+-83.637	210.683	487.219	150	85	90	175	5e-05	3	2
