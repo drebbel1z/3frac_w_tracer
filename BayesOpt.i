@@ -209,7 +209,7 @@
     type = MaternHalfIntCovariance
     signal_variance = 4.0
     noise_variance = 1e-6
-    length_factor = '10.0'
+    length_factor = '10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0'
     p=1
   []
 
@@ -217,7 +217,7 @@
     type = MaternHalfIntCovariance
     signal_variance = 4.0
     noise_variance = 1e-6
-    length_factor = '10.0'
+    length_factor = '10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0'
     p=1
   []
 
@@ -225,7 +225,7 @@
     type = MaternHalfIntCovariance
     signal_variance = 4.0
     noise_variance = 1e-6
-    length_factor = '10.0'
+    length_factor = '10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0'
     p=1
   []
 
@@ -233,14 +233,14 @@
     type = MaternHalfIntCovariance
     signal_variance = 4.0
     noise_variance = 1e-6
-    length_factor = '10.0'
+    length_factor = '10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0'
     p=1
   []
   [covar5]
     type = MaternHalfIntCovariance
     signal_variance = 4.0
     noise_variance = 1e-6
-    length_factor = '10.0'
+    length_factor = '10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0'
     p=1
   []
 []
