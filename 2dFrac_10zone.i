@@ -91,7 +91,7 @@ water_weight = 9300 #9300 = density(T=490K,P=23MPa) * gravity(9.8m/s2)
 ###########################################################
 
 # USE THIS [PorousFlowFullySaturated] FOR TH + TRACER
-tracer_type = "tracer"
+# tracer_type = "tracer"
 
 tracer_flux_src = 1.0e-3
 !include tracer_setup.i
@@ -625,12 +625,12 @@ tracer_flux_src = 1.0e-3
 
 ##############################################################
 [Outputs]
-  # console = false
-  file_base = 'outputs/results_nlmat_${tracer_type}_${mesh_size}m'
+  console = false
+  # file_base = 'outputs/results_nlmat_${tracer_type}_${mesh_size}m'
   # csv = true
   print_linear_residuals = false
   wall_time_checkpoint = false
-  exodus = true
+  # exodus = true
   #  [exo]
   #   #  time_step_interval = 5
   #    type = Exodus
