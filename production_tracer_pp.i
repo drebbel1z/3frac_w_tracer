@@ -1,19 +1,19 @@
 ####### PRODUCTION TRACER POSTPROCESSORS
 # created by write_diracs_input.py
 [Postprocessors]
-  [c_out_z_537.2]
+  [c_out_z_519.5]
     type = PointValue
     variable = C
-    point = '-83.6358901331 210.6703141636 537.2353804364'
+    point = '-45.5934589398 214.7704112881 519.5491193579'
   []
-  [c_out_z_496.8]
+  [c_out_z_504.6]
     type = PointValue
     variable = C
-    point = '3.3320105757 220.0434490667 496.8032379804'
+    point = '-13.3484490202 218.245680042 504.5581304535'
   []
-  [c_out_z_493.4]
+  [c_out_z_473.3]
     type = PointValue
     variable = C
-    point = '10.5909799924 220.8257986353 493.4284792113'
+    point = '53.8865543998 225.4920635023 473.299985619'
   []
 []

@@ -4,7 +4,7 @@
     type = PorousFlowPointSourceFromPostprocessor
     variable = porepressure
     mass_flux = mass_flux_src_stage_8_3
-    point = '10.5909799924 220.8257986353 393.4284792113'
+    point = '53.8865543998 225.4920635023 373.2999856190'
     point_not_found_behavior = WARNING
     # block = 100
   []
@@ -12,7 +12,7 @@
     type = PorousFlowPointSourceFromPostprocessor
     variable = porepressure
     mass_flux = mass_flux_src_stage_8_4
-    point = '3.3320105757 220.0434490667 396.8032379804'
+    point = '-13.3484490202 218.2456800420 404.5581304535'
     point_not_found_behavior = WARNING
     # block = 100
   []
@@ -20,7 +20,7 @@
     type = PorousFlowPointSourceFromPostprocessor
     variable = porepressure
     mass_flux = mass_flux_src_stage_10
-    point = '-83.6358901331 210.6703141636 437.2353804364'
+    point = '-45.5934589398 214.7704112881 419.5491193579'
     point_not_found_behavior = WARNING
     # block = 100
   []

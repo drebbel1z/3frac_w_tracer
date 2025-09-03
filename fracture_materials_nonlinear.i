@@ -35,8 +35,8 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
   [aperture_fracture3]
     type=CapsuleApertureAux
     variable = aperture_fracture3
-    start_point ='-83.6358901331 210.6703141636 437.2353804364'
-    end_point ='-83.6358901331 210.6703141636 537.2353804364'
+    start_point ='-45.5934589398 214.7704112881 419.5491193579'
+    end_point ='-45.5934589398 214.7704112881 519.5491193579'
     a_max = ${frac_aperture_3}
     a_min = ${fparse frac_aperture_3/10}
     midpoint_of_sigmoid = 47.14586926
