@@ -41,7 +41,7 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
     a_min = ${fparse frac_aperture_3/10}
     midpoint_of_sigmoid = 47.14586926
     slope_at_midpoint = ${fparse 10^log_slope_at_midpoint}
-    block = 'fracture3'
+    block = 'fracture1'
     execute_on = 'INITIAL'
   []
 
@@ -79,7 +79,7 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
     P_ref = insitu_pp
     P_coeff = ${one_over_bulk}
     porosity_min = ${fparse frac_aperture_1/10}
-    block = fracture1
+    block = fracture3
   []
   [porosity_fracture2]
     type = PorousFlowPorosityLinear
@@ -95,7 +95,7 @@ one_over_bulk = 1.4e-11 #bulk modulus = 70GPa
     P_ref = insitu_pp
     P_coeff = ${one_over_bulk}
     porosity_min = ${fparse frac_aperture_3/10}
-    block = fracture3
+    block = fracture1
   []
   [permeability_fracture1]
     type = PorousFlowPermeabilityKozenyCarman

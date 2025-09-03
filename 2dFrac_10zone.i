@@ -4,8 +4,8 @@
 # fracture permeability = roughness/12 * (aperature_o)^3 = 12e-3/12*(1e-4)^3 = 1e-15 m^-2
 # fracture porosity = aperature ~1e-4m
 
-log_frac_aperature_1 = -3.88063167
-log_frac_aperature_2 = -3.66428232
+log_frac_aperature_1 = -3.86746721
+log_frac_aperature_2 = -3.6980319
 log_frac_aperature_3 = -3.19444072
 
 frac_aperature_1 = ${fparse 10^log_frac_aperature_1}
